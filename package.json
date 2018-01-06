@@ -1,0 +1,16 @@
+{
+  "name": "twitter_bot",
+  "version": "1.0.0",
+  "description": "will tweet temperatures for san jose, san francisco, new york, los angeles, chicago, houston, phoenix, philadelphia, and more",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zain Budhwani",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.9",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
